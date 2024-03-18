@@ -6939,7 +6939,7 @@
 				"contained": {
 					"description": "These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, nor can they have their own independent transaction scope. This is allowed to be a Parameters resource if and only if it is referenced by a resource that provides context/meaning.",
 					"items": {
-						"$ref": "#/definitions/ResourceList"
+						"type": "string"
 					},
 					"type": "array"
 				},
